@@ -19,6 +19,15 @@
       font-size: 3em;
       font-family: 'Pacifico', cursive;
     }
+    .hero-image {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .hero-image img {
+      max-height: 200px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
     h2 {
       color: #2c3e50;
       border-bottom: 2px solid #ddd;
@@ -44,41 +53,52 @@
     tr:nth-child(even) td {
       background-color: #fafafa;
     }
+    table img {
+      width: 80px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
   </style>
 </head>
 <body>
   <h1>Aadhini and Nidhiyan's Birthday Menu</h1>
-  	<p style="text-align: center; color: #555; font-size: 1em; margin: 5px auto 30px; max-width: 1000px;">
-      <Strong> These are popular ingredients used in these dishes, but they may not represent the exact recipe. Please check carefully if you have any allergies or dietary restrictions. </Strong>
-	  </p>
+	<p style="text-align: center; color: #555; font-size: 1em; margin: 5px auto 30px; max-width: 1000px;">
+  <Strong> These are popular ingredients used in these dishes, but they may not represent the exact recipe. Please check carefully if you have any allergies or dietary restrictions. </Strong>
+	</p>
+
   <h2>Learn more about your Starters</h2>
   <table>
-    <tr>
       <th>Dish</th>
+      <th>Image</th>
       <th>Definition</th>
       <th>Common Ingredients</th>
       <th>Possible Allergies</th>
     </tr>
     <tr>
       <td>Veg Samosa</td>
+      <td><img src="https://xantilicious.com/wp-content/uploads/2017/07/for-site-4.jpg" alt="Veg Samosa" height="60"></td>
       <td>A deep-fried pastry filled with spiced vegetables.</td>
       <td>Potatoes, peas, carrots, onion, cumin, coriander, chili, flour-based dough.</td>
       <td>Gluten (dough), nightshades (potato, chili), sometimes dairy (in dough or filling).</td>
     </tr>
     <tr>
       <td>Mutton Roll</td>
+      <td><img src="https://bookmycomfort.wordpress.com/wp-content/uploads/2013/01/meatpacket-cut.jpg?w=972" alt="Mutton Roll" height="60"></td>
       <td>A spicy meat-filled pastry snack popular in Sri Lankan cuisine.</td>
       <td>Mutton, potato, onion, green chili, curry leaves, spices, flour-based wrap, egg (coating), breadcrumbs.</td>
       <td>Gluten, egg, meat (mutton), nightshades (chili), dairy (if used in mash).</td>
     </tr>
     <tr>
       <td>Sri Lankan Fish Cutlet</td>
+      <td><img src="https://farm1.staticflickr.com/574/21675171075_aa3f4aee6b_o.jpg" height="60"></td>
       <td>A deep-fried ball of spicy fish and mashed potato.</td>
       <td>Tuna or mackerel, potato, green chili, onion, garlic, curry leaves, spices, egg, breadcrumbs.</td>
       <td>Fish, egg, gluten (breadcrumbs), nightshades (chili).</td>
     </tr>
     <tr>
       <td>Chicken 65</td>
+      <td><img src="https://tandooriflamesmelbourne.com.au/wp-content/uploads/2019/03/Chicken-65-1.jpg" alt="Chicken 65" height="60"></td>
       <td>A spicy South Indian deep-fried chicken starter.</td>
       <td>Chicken, yogurt, garlic, ginger, red chili powder, curry leaves, cornflour, rice flour, lemon juice.</td>
       <td>Dairy (yogurt), gluten (flour), egg (if used), nightshades (chili).</td>
@@ -87,7 +107,7 @@
 
   <h2>What's for Main Course?</h2>
   <table>
-    <tr>
+      <th>Image</th>
       <th>Dish</th>
       <th>Definition</th>
       <th>Common Ingredients</th>
@@ -95,48 +115,56 @@
     </tr>
     <tr>
       <td>Vegetarian Fried Rice</td>
+      <td><img src="https://www.grandchancellor.lk/wp-content/uploads/2021/11/013.jpg" alt="Vegetarian Fried Rice" height="60"></td>
       <td>A stir-fried rice dish cooked with vegetables and spices.</td>
       <td>Basmati rice, carrots, peas, bell peppers, soy sauce, garlic, ginger, spring onions, oil.</td>
       <td>Soy (soy sauce), gluten (soy sauce), sesame (if oil used).</td>
     </tr>
     <tr>
       <td>Aubergine Pirratal</td>
+      <td><img src="https://greatcurryrecipes.net/wp-content/uploads/2021/12/aub2.jpg" alt="Aubergine Pirratal" height="60"></td>
       <td>A dry-style Indian curry made with spiced, sautéed eggplant.</td>
       <td>Aubergine, onion, tomato, garlic, ginger, turmeric, cumin, coriander, chili powder, mustard seeds, oil.</td>
       <td>Mustard (seeds or oil), nightshades (eggplant, tomato, chili), gluten (in spices).</td>
     </tr>
     <tr>
       <td>Mysoor Dhaal</td>
+      <td><img src="https://cdn.indiaphile.info/wp-content/uploads/2023/03/stp-masoor-dal-0041.jpg" alt="Mysoor Dhaal" height="60"></td>
       <td>A smooth, mildly spiced South Indian lentil dish made from red lentils.</td>
       <td>Red lentils, tomato, turmeric, mustard seeds, curry leaves, cumin, garlic, ghee or oil.</td>
       <td>Mustard seeds, dairy (ghee), legumes (lentils), gluten (if hing/spice blends used).</td>
     </tr>
     <tr>
       <td>Chili Paneer</td>
+      <td><img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2022/02/chilli-paneer-recipe.jpg" alt="Chili Paneer" height="60"></td>
       <td>An Indo-Chinese dish with fried paneer in a spicy, tangy sauce.</td>
       <td>Paneer, bell peppers, onion, green chili, soy sauce, garlic, ginger, cornflour, vinegar.</td>
       <td>Dairy (paneer), soy (soy sauce), gluten (soy sauce/cornflour), nightshades.</td>
     </tr>
     <tr>
       <td>Tandoori Chicken Pieces</td>
+      <td><img src="https://www.cubesnjuliennes.com/wp-content/uploads/2022/12/Tandoori-Chicken-Recipe.jpg" height="60"></td>
       <td>Chicken marinated in yogurt and spices, then roasted or grilled.</td>
       <td>Chicken, yogurt, lemon juice, garlic, ginger, chili powder, cumin, garam masala.</td>
       <td>Dairy (yogurt), spices (garam masala), nightshades (chili).</td>
     </tr>
     <tr>
       <td>Sri Lankan Tamil Chicken Curry</td>
+      <td><img src="https://www.marionskitchen.com/wp-content/uploads/2021/11/Weeknight-Creamy-Sri-Lankan-Chicken-Curry-01-1200x1500.jpg" alt="Sri Lankan Tamil Chicken Curry" height="60"></td>
       <td>A spicy, rich curry made with chicken, roasted spices, and coconut milk.</td>
       <td>Chicken, onion, garlic, ginger, curry leaves, chili, roasted curry powder, coconut milk.</td>
       <td>Coconut, nightshades (chili), spices.</td>
     </tr>
     <tr>
       <td>Red Onion & Tomato Salad</td>
+      <td><img src="https://busycooks.com/wp-content/uploads/2025/05/Tomato-Onion-Salad-1.jpg" alt="Red Onion & Tomato Salad" height="60"></td>
       <td>A fresh salad combining sliced onions and tomatoes with light seasoning.</td>
       <td>Red onion, tomato, lemon juice, green chili, coriander, salt, pepper.</td>
       <td>Nightshades (tomato, chili), onion sensitivity.</td>
     </tr>
     <tr>
       <td>Pappadom</td>
+      <td><img src="https://m.media-amazon.com/images/I/31PFCnF+Z9L._UF350,350_QL80_.jpg" alt="Pappadom" height="60"></td>
       <td>A thin, crispy Indian wafer made from lentil flour, usually fried or roasted.</td>
       <td>Urad dal (black gram) flour, salt, oil, optional cumin or black pepper.</td>
       <td>Legumes (urad dal), gluten (in some varieties), sesame (if added).</td>
